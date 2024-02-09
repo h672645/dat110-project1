@@ -14,8 +14,8 @@ public class Message {
 		
 		if (true)
 			throw new UnsupportedOperationException(TODO.constructor("Message"));
-			
-		// TODO - END
+		}
+		this.data=data;
 	}
 
 	public byte[] getData() {
